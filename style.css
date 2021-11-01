@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.film_container {
+    margin-bottom: 40px;
+    display: flex;
+    width: 80%;
+}
+
+.img_container {
+    width: 200px;
+    height: 300px;
+}
+
+.img_container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info_container {
+    width: calc(100% - 220px);
+    margin-left: 20px;
+}
+
+.info_container h3 {
+    margin-bottom: 20px;
+}
